@@ -1,0 +1,89 @@
+*{
+   margin: 0px;
+   font-family: "inter";
+}
+#TituloMenuSuperior{
+    margin-left: 62px;
+    margin-top: 150px;
+}
+#TitutloMenuInferior{
+    margin-left: 62px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#MenuSuperior{
+    background-color: #303030;
+    color: #ffffff;
+    padding: 50px;
+}
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+
+}
+.texto{
+    margin-left: 60px;
+}
+.bolder{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#TextoImagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 300px;
+}
+#TextoImagemSuperior{
+   color: #000000;
+   margin-top: 230px;
+}
+#TextoImagemInferior{
+    color: #000000;
+    margin-top: 30px;
+}
+#Foto{
+margin-left: 75px;
+}
+#Formulario{
+    background-color: #303030;
+    text-align: center;
+}
+#TituloFormulario{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 50px;
+    text-align: center;
+}
+input{
+    height: 72px;
+    width: 450px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    font: "Raleway";
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #C07212;
+    color: #ffffff;
+    transform: translateY(-10px);
+    box-shadow: #C07212;
+    transition-duration: 0.5s;
+}
